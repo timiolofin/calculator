@@ -1,0 +1,85 @@
+body {
+    background-color: #f9f9fb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #6c65e4;
+}
+
+.calculator {
+    width: 350px;
+    height: 455px;
+    border: 2px  #333 solid;
+    border-radius: 15px;
+}
+
+.screen {
+    display: flex;
+    height: 110px;
+    padding: 10px;
+    border-radius: 15px 15px 0px 0px;
+    border-bottom: 1px solid rgb(83, 23, 101);
+    background-color: #fbfafa;
+    align-items: flex-end;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+  
+.calculator #previousOperationScreen {
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 25px;
+    color: #515050;
+}
+
+.calculator #currentOperationScreen {
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: right;
+    Font-size: 40px;
+}
+
+.calculator button {
+    width: 88px;
+    height: 65px;
+    border: 0.5px solid #ccc9c9;
+    font-size: 25px;
+    font-weight: bold;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #39348f;
+    color: #fbfafa;
+}
+
+.button-row {
+    display: flex;
+}
+  
+.calculator .right-most {
+    background-color: #2d2d34;
+    color: #89898b   
+}
+
+.equalsBtn {
+    border-radius: 0px 0px 13px 0px;
+}
+
+.zeroBtn {
+    border-radius: 0px 0px 0px 13px;
+}
+
+button:active {
+    background-color: #ff8ac3
+}
+
+.calculator .right-most:active {
+    background-color: #ff8ac3;
+}
+  
